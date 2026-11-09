@@ -1,0 +1,41 @@
+services:
+  harkat-studio:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        NEXT_PUBLIC_SUPABASE_URL: ${NEXT_PUBLIC_SUPABASE_URL:-https://ncwzcpfdaybprcfsbwgp.supabase.co}
+        NEXT_PUBLIC_SUPABASE_ANON_KEY: ${NEXT_PUBLIC_SUPABASE_ANON_KEY:-eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im5jd3pjcGZkYXlicHJjZnNid2dwIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODgzMzI0NDAsImV4cCI6MjEwMzkwODQ0MH0.D6wx2alsEmavGkJgdzl4scGDiadh76zakD05qPw7Lwo}
+
+    container_name: harkat-studio
+
+    ports:
+      - "3000:3000"
+
+    env_file:
+      - path: .env
+        required: false
+      - path: .env.local
+        required: false
+
+    environment:
+      - NODE_ENV=production
+      - NEXT_TELEMETRY_DISABLED=1
+      - HOSTNAME=0.0.0.0
+      - PORT=3000
+      - LOCAL_AI_URL=http://host.docker.internal:8010
+
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+
+    volumes:
+      - ./public/audio:/app/public/audio
+
+    healthcheck:
+      test: ["CMD-SHELL", "node -e 'require(\"http\").get(\"http://localhost:3000\", (r) => process.exit(r.statusCode < 400 ? 0 : 1))'"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 20s
+
+    restart: unless-stopped

@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE score-partwise PUBLIC "-//Recordare//DTD MusicXML 4.0 Partwise//EN" "http://www.musicxml.org/dtds/partwise.dtd">
+<score-partwise version="4.0">
+  <work>
+    <work-title>Yang Pergi Kamu, Bukan Hidupku</work-title>
+  </work>
+  <identification>
+    <creator type="composer">Harkat AI Studio</creator>
+    <creator type="lyricist">Harkat Studio Production</creator>
+  </identification>
+  <part-list>
+    <score-part id="P1">
+      <part-name>Vokal &amp; Melodi</part-name>
+      <score-instrument id="P1-I1"><instrument-name>Lead Vocal</instrument-name></score-instrument>
+    </score-part>
+  </part-list>
+  <part id="P1">
+    <!-- Measure 1: Am -->
+    <measure number="1">
+      <attributes>
+        <divisions>4</divisions>
+        <key><fifths>0</fifths><mode>minor</mode></key>
+        <time><beats>4</beats><beat-type>4</beat-type></time>
+        <clef><sign>G</sign><line>2</line></clef>
+      </attributes>
+      <direction placement="above">
+        <direction-type><words font-weight="bold" font-size="12">Intro [Am] - J = 96</words></direction-type>
+        <sound tempo="96"/>
+      </direction>
+      <harmony>
+        <root><root-step>A</root-step></root>
+        <kind text="m">minor</kind>
+      </harmony>
+      <note>
+        <pitch><step>A</step><octave>4</octave></pitch>
+        <duration>4</duration>
+        <type>quarter</type>
+        <lyric number="1"><text>Kau</text></lyric>
+      </note>
+      <note>
+        <pitch><step>C</step><octave>5</octave></pitch>
+        <duration>4</duration>
+        <type>quarter</type>
+        <lyric number="1"><text>per-</text></lyric>
+      </note>
+      <note>
+        <pitch><step>E</step><octave>5</octave></pitch>
+        <duration>4</duration>
+        <type>quarter</type>
+        <lyric number="1"><text>gi</text></lyric>
+      </note>
+      <note>
+        <pitch><step>A</step><octave>4</octave></pitch>
+        <duration>4</duration>
+        <type>quarter</type>
+        <lyric number="1"><text>tan-</text></lyric>
+      </note>
+    </measure>
+
+    <!-- Measure 2: G -->
+    <measure number="2">
+      <harmony>
+        <root><root-step>G</root-step></root>
+        <kind text="">major</kind>
+      </harmony>
+      <note>
+        <pitch><step>G</step><octave>4</octave></pitch>
+        <duration>4</duration>
+        <type>quarter</type>
+        <lyric number="1"><text>pa</text></lyric>
+      </note>
+      <note>
+        <pitch><step>B</step><octave>4</octave></pitch>
+        <duration>4</duration>
+        <type>quarter</type>
+        <lyric number="1"><text>se-</text></lyric>
+      </note>
+      <note>
+        <pitch><step>D</step><octave>5</octave></pitch>
+        <duration>4</duration>
+        <type>quarter</type>
+        <lyric number="1"><text>pa-</text></lyric>
+      </note>
+      <note>
+        <pitch><step>B</step><octave>4</octave></pitch>
+        <duration>4</duration>
+        <type>quarter</type>
+        <lyric number="1"><text>tah</text></lyric>
+      </note>
+    </measure>
+
+    <!-- Measure 3: F -->
+    <measure number="3">
+      <harmony>
+        <root><root-step>F</root-step></root>
+        <kind text="">major</kind>
+      </harmony>
+      <note>
+        <pitch><step>F</step><octave>4</octave></pitch>
+        <duration>4</duration>
+        <type>quarter</type>
+        <lyric number="1"><text>ka-</text></lyric>
+      </note>
+      <note>
+        <pitch><step>A</step><octave>4</octave></pitch>
+        <duration>4</duration>
+        <type>quarter</type>
+        <lyric number="1"><text>ta</text></lyric>
+      </note>
+      <note>
+        <pitch><step>C</step><octave>5</octave></pitch>
+        <duration>8</duration>
+        <type>half</type>
+      </note>
+    </measure>
+
+    <!-- Measure 4: E -->
+    <measure number="4">
+      <harmony>
+        <root><root-step>E</root-step></root>
+        <kind text="">major</kind>
+      </harmony>
+      <note>
+        <pitch><step>E</step><octave>4</octave></pitch>
+        <duration>4</duration>
+        <type>quarter</type>
+        <lyric number="1"><text>he-</text></lyric>
+      </note>
+      <note>
+        <pitch><step>G</step><alter>1</alter><octave>4</octave></pitch>
+        <duration>4</duration>
+        <type>quarter</type>
+        <accidental>sharp</accidental>
+        <lyric number="1"><text>ning</text></lyric>
+      </note>
+      <note>
+        <pitch><step>B</step><octave>4</octave></pitch>
+        <duration>8</duration>
+        <type>half</type>
+        <lyric number="1"><text>da-da</text></lyric>
+      </note>
+    </measure>
+
+    <!-- Measure 5: Chorus [F] -->
+    <measure number="5">
+      <direction placement="above">
+        <direction-type><words font-weight="bold" font-size="13">Chorus [Fortissimo]</words></direction-type>
+      </direction>
+      <harmony>
+        <root><root-step>F</root-step></root>
+        <kind text="">major</kind>
+      </harmony>
+      <note>
+        <pitch><step>A</step><octave>4</octave></pitch>
+        <duration>4</duration>
+        <type>quarter</type>
+        <lyric number="1"><text>Yang</text></lyric>
+      </note>
+      <note>
+        <pitch><step>C</step><octave>5</octave></pitch>
+        <duration>4</duration>
+        <type>quarter</type>
+        <lyric number="1"><text>per-</text></lyric>
+      </note>
+      <note>
+        <pitch><step>F</step><octave>5</octave></pitch>
+        <duration>4</duration>
+        <type>quarter</type>
+        <lyric number="1"><text>gi</text></lyric>
+      </note>
+      <note>
+        <pitch><step>E</step><octave>5</octave></pitch>
+        <duration>4</duration>
+        <type>quarter</type>
+        <lyric number="1"><text>i-</text></lyric>
+      </note>
+    </measure>
+
+    <!-- Measure 6: [G] -->
+    <measure number="6">
+      <harmony>
+        <root><root-step>G</root-step></root>
+        <kind text="">major</kind>
+      </harmony>
+      <note>
+        <pitch><step>D</step><octave>5</octave></pitch>
+        <duration>4</duration>
+        <type>quarter</type>
+        <lyric number="1"><text>tu</text></lyric>
+      </note>
+      <note>
+        <pitch><step>B</step><octave>4</octave></pitch>
+        <duration>4</duration>
+        <type>quarter</type>
+        <lyric number="1"><text>ka-</text></lyric>
+      </note>
+      <note>
+        <pitch><step>G</step><octave>4</octave></pitch>
+        <duration>8</duration>
+        <type>half</type>
+        <lyric number="1"><text>mu,</text></lyric>
+      </note>
+    </measure>
+
+    <!-- Measure 7: [Am] -->
+    <measure number="7">
+      <harmony>
+        <root><root-step>A</root-step></root>
+        <kind text="m">minor</kind>
+      </harmony>
+      <note>
+        <pitch><step>E</step><octave>5</octave></pitch>
+        <duration>4</duration>
+        <type>quarter</type>
+        <lyric number="1"><text>bu-</text></lyric>
+      </note>
+      <note>
+        <pitch><step>C</step><octave>5</octave></pitch>
+        <duration>4</duration>
+        <type>quarter</type>
+        <lyric number="1"><text>kan</text></lyric>
+      </note>
+      <note>
+        <pitch><step>A</step><octave>4</octave></pitch>
+        <duration>8</duration>
+        <type>half</type>
+        <lyric number="1"><text>hi-dup-ku!</text></lyric>
+      </note>
+    </measure>
+
+    <!-- Measure 8: [E] Outro -->
+    <measure number="8">
+      <harmony>
+        <root><root-step>E</root-step></root>
+        <kind text="">major</kind>
+      </harmony>
+      <note>
+        <pitch><step>E</step><octave>4</octave></pitch>
+        <duration>16</duration>
+        <type>whole</type>
+        <notations><fermata type="upright"/></notations>
+      </note>
+    </measure>
+  </part>
+</score-partwise>
